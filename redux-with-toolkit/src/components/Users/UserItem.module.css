@@ -1,0 +1,49 @@
+.user-item {
+    color: black;
+    list-style-type: none;
+    background-color: rgb(212, 212, 212);
+    margin-top: 5px;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.user-item:first-child {
+    margin: 0;
+}
+
+.user-item:hover {
+    width: 51%;
+    transition: width 100ms ease-in;
+}
+
+.user-item span {
+    font-weight: bold;
+}
+
+.user-item button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    transform: rotate(45deg);
+}
+
+.user-item button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.selected-user {
+    /* border: 2px red solid; */
+    background-color: burlywood;
+}

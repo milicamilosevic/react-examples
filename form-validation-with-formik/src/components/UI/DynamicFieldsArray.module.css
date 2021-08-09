@@ -1,0 +1,55 @@
+.input-with-control {
+	position: relative;
+}
+
+.minus-button {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: var(--form-error-text);
+	border: none;
+	border-radius: 5px;
+	width: 25px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.minus-button:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.plus-button {
+	background-color: limegreen;
+	border: none;
+	border-radius: 5px;
+	width: 25px;
+	height: 25px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	right: 0;
+	bottom: -10px;
+	margin-right: 2px;
+	position: absolute;
+	/* top: 10px; */
+}
+
+.plus-button:disabled {
+	background-color: lightgray;
+}
+
+.plus-button:enabled:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.error {
+	height: 20px;
+	color: var(--form-error-text);
+	font-weight: bold;
+	font-size: 12px;
+}

@@ -1,0 +1,23 @@
+.navbar-container {
+	background-color: rgb(11, 14, 29);
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-container > a {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 0 5px 0;
+	border-bottom: 5px solid transparent;
+	margin: 0 20px;
+}
+
+.navbar-container > a:hover,
+.active-link {
+	border-bottom: 5px solid white !important;
+}

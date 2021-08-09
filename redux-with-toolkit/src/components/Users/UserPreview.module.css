@@ -1,0 +1,40 @@
+.user-preview-container {
+    background-color: whitesmoke;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.user-preview-container:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.user-preview-container ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.user-preview-container ul li span {
+    font-weight: bold;
+}
+
+.address-section {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.address-section h4 {
+    margin: 0;
+}
+
+.address-section section {
+    border-radius: 3px;
+    padding-left: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
